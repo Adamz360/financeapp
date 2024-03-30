@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-xxl feature py-5 my-5">
+    <div class="container my-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-12">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="feature-box border rounded p-4">
+                                    <i class="fa fa-search fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">Audit and Assurance</h4>
+                                    <p class="mb-3">Financial statement audits give assurance over information used by investors and the capital markets. Independent, quality financial statement audits Financial statement audits give assurance over information used by investors and the capital markets.</p>
+                                    <a class="fw-semi-bold" href="{% url 'audit_assurance' %}">Read More <i class="fa fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="feature-box border rounded p-4">
+                                    <i class="fa fa-calculator fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">Tax, Regulatory & People Services</h4>
+                                    <p class="mb-3">Attitudes to tax are changing. Organizations of all sizes are ever more exposed to new trends in tax regulation, not just locally but globally. Keystone Management is at the forefront of an evolving tax landscape As a leading tax network, we believe that we – as individual tax professionals have a duty to engage in the discussion and debate surrounding Tax Transparency and Responsibility.</p>
+                                    <a class="fw-semi-bold" href="{% url 'tax_regulatory_people_services' %}">Read More <i class="fa fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="feature-box border rounded p-4">
+                                    <i class="fa fa-calendar fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">Advisory</h4>
+                                    <p class="mb-3">Keystone Management Nigeria Advisory Team works with the world’s leading organizations to create and protect the sustainable value of their business. Keystone Management Nigeria Advisory professionals work with you to cut through the complexities of today’s rapidly changing marketplace.</p>
+                                    <a class="fw-semi-bold" href="{% url 'advisory' %}">Read More <i class="fa fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="feature-box border rounded p-4">
+                                    <i class="fa fa-address-book fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">Consulting</h4>
+                                    <p class="mb-3">Companies thrive when their people, processes and tools are all aligned behind shared objectives. At Mazars, we help leaders across the business – from top management through to finance, risk, IT and HR – to achieve alignment and deliver peak performance through collaboration, thoughtful advice and up-to-date technical and digital expertise. </p>
+                                    <a class="fw-semi-bold" href="{% url 'consulting' %}">Read More <i class="fa fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+           
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock%}

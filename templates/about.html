@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- About Start -->
+
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <h1 class="display-3 mb-4 animated slideInDown">About</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4 align-items-end mb-4">
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded" src="{% static 'img/advisory.jpg' %}">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="display-5 mb-4">Our Mission</h1>
+                    <p class="mb-4">At keystone, we are more than just numbers; we are your trusted partners in financial clarity and success. With a commitment to excellence and a passion for precision, we specialize in providing comprehensive accounting and auditing services tailored to meet the unique needs of our clients.
+
+                        Our Mission
+                        
+                        Our mission at keystone is simple: to empower our clients to navigate the complexities of finance with confidence and ease. We understand that every business is unique, which is why we take a personalized approach to each engagement, ensuring that our solutions are aligned with your goals and objectives.
+                        
+                        Expertise You Can Trust
+                        
+                        Backed by a team of seasoned professionals, each with a wealth of experience in accounting, auditing, and financial advisory services, we offer a depth of expertise that sets us apart. Whether you're a small business owner, a growing startup, or a multinational corporation, you can trust keystone to deliver the insights and guidance you need to succeed.
+                        
+                       </p>
+                    
+                </div>
+            </div>
+            <!-- second section  -->
+            <div class="row g-4 align-items-end mb-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="display-5 mb-4">Our Services</h1>
+                    <p class="mb-4"> 
+                        
+                        From financial statement preparation and tax planning to internal audits and compliance services, we offer a comprehensive suite of services designed to address all your accounting and auditing needs. With a focus on accuracy, efficiency, and integrity, we strive to exceed your expectations at every turn.
+                        
+                        Client-Centric Approach
+                        
+                        At keystone, our clients are at the heart of everything we do. We take the time to understand your unique challenges and opportunities, providing personalized solutions that drive tangible results. With a dedication to open communication and responsive service, we ensure that you always feel supported and valued.
+                        
+                        Join Us on Your Financial Journey
+                        
+                        Whether you're looking for assistance with day-to-day accounting tasks or strategic guidance to help take your business to the next level, Keystone is here to help. Join us on your financial journey and discover the difference that expert advice and personalized service can make.
+                    
+                    </p>
+                    
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded" src="{% static 'img/consultancy.webp' %}">
+                </div>
+            </div>
+          
+        </div>
+</div>
+<!-- About End -->
+
+
+
+
+
+<!-- Team Start -->
+<div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Team</p>
+                <h1 class="display-5 mb-5">Exclusive Team</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <img class="img-fluid rounded" src="img/team-1.jpg" alt="">
+                        <div class="team-text">
+                            <h4 class="mb-0">Kate Winslet</h4>
+                            <div class="team-social d-flex">
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <img class="img-fluid rounded" src="img/team-2.jpg" alt="">
+                        <div class="team-text">
+                            <h4 class="mb-0">Jac Jacson</h4>
+                            <div class="team-social d-flex">
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <img class="img-fluid rounded" src="img/team-3.jpg" alt="">
+                        <div class="team-text">
+                            <h4 class="mb-0">Doris Jordan</h4>
+                            <div class="team-social d-flex">
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- Team End -->
+
+
+{% endblock %}

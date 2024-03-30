@@ -1,0 +1,513 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+ <!-- Carousel Start -->
+ <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="w-100"  src="{% static 'img/carousel-11.jpg' %}" alt="Image" style="height: 100vh;">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <!-- <p
+                                    class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
+                                    Welcome to Keystone Management group</p> -->
+                                <!-- <h1 class="display-1 mb-4 animated slideInDown">Your Financial Status Is Our Goal
+                                </h1> -->
+                                <!-- <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="w-100" src="{% static 'img/carousel-12.jpg' %}" alt="Image" style="height: 100vh;">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-7">
+                                <!-- <p
+                                    class="d-inline-block border border-white rounded text-primary fw-semi-bold py-1 px-3 animated slideInDown">
+                                    Welcome to Finanza</p> -->
+                                <!-- <h1 class="display-1 mb-4 animated slideInDown">True Financial Support For You</h1> -->
+                                <!-- <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Explore More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- Carousel End -->
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4 align-items-end mb-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded" src="{% static 'img/about.webp' %}">
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
+                    <h1 class="display-5 mb-4">Discover Keystone:Where Trust and Transparency Prevail</h1>
+                    <p class="mb-4">At Keystone, we believe in the power of precision to drive progress. Founded on a commitment to excellence and fueled by a passion for innovation, we are your trusted partner in navigating the complexities of accounting and auditing.
+                        Our approach is akin to that of a symphony conductor, meticulously crafting financial harmony that resonates with integrity and clarity. With a team of seasoned professionals, each an expert in their field, we orchestrate bespoke solutions tailored to your unique needs.
+                        We don't just follow the trends; we set them. Embracing innovation and leveraging cutting-edge technology, we illuminate pathways to success amidst the ever-evolving landscape of finance and business.
+                    </p>
+                    <a class="btn btn-primary py-3 px-5" href="">Explore More</a>
+
+                </div>
+            </div>
+        </div>
+</div>
+<!-- About End -->
+<!-- second about section -->
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Insights</p>
+                <h1 class="display-5 mb-4">Explore Our Economy Trends Briefs</h1>
+                <p class="mb-4">
+                    Welcome to our Economy Trends Briefs page, where we delve into the latest developments shaping the economic landscape. At keystone, we understand the importance of staying informed and ahead of the curve in today's dynamic business environment.
+                    In this ever-changing economic climate, knowledge is power. Our team of experts at keystone is dedicated to providing you with timely insights and analysis on key economic trends, helping you make informed decisions for your business.
+                   
+                                    </p>
+                <a class="btn btn-primary py-3 px-5" href="">Explore More</a>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/insight.jpg' %}" style="height: fit-content;">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Industries Start -->
+<div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Industries</p>
+                <h1 class="display-5 mb-5">Industries</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <h5 class="m-0"><i class="fa fa-credit-card text-primary me-3"></i>Financial Planning</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <h5 class="m-0"><i class="fa fa-power-off text-primary me-3"></i>Energy</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <h5 class="m-0"><i class="fa fa-shopping-bag text-primary me-3"></i>Consumer Industry & markets</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <h5 class="m-0"><i class="fa fa-ship text-primary me-3"></i>Transport and Logistics</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-7" type="button">
+                            <h5 class="m-0"><i class="fa fa-users text-primary me-3"></i>Public and Social service</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-6" type="button">
+                            <h5 class="m-0"><i class="fa fa-home text-primary me-3"></i>Real estate and Construction</h5>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 510px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="{% static 'img/finance.jpg' %}"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Financial Support</h3>
+                                    <p class="mb-4">Building the future of financial services with forward-thinking solutions Asset management The regulatory environment for asset management firms has intensified in recent years with a growing number of new regulations. Among these are the Markets in Financial Instruments Directive (MIFID 2), the Undertakings for Collective Investment in Transferable Securities (UCITS) directives and the Alternative Investment Fund Managers Directive (AIFMD)...</p>
+                                    <a href="{% url 'industries' %}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 510px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="{% static 'img/oilpics.jpg' %}"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Energy & Natural Resources</h3>
+                                    <p class="mb-4">Tailored solutions to meet global needs and manage resources in a changing environment Industry players will face a regulatory environment characterised by greater complexity, exposure to greater market risks, and new environmental expectations of consumers..</p>
+                                    <a href="{% url 'industries' %}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 510px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="{% static 'img/consumers.jpeg' %}"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Consumer Industry & markets</h3>
+                                    <p class="mb-4">Financial statement audits give assurance over information used by investors and the capital markets. Independent, quality financial statement audits Financial statement audits give assurance over information used by investors and the capital markets – a responsibility to the public interest KPMG Audit professionals take very seriously.</p>
+                                    <a href="{% url 'industries' %}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 510px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="{% static 'img/logistics.webp' %}"
+                                            style="object-fit: cover;" alt="logistics photo">
+                                    </div>
+                                </div>
+                                <div class="col-md-6" id="tab-pane-5">
+                                    <h3 class="mb-4">Transport and Logistics</h3>
+                                    <p class="mb-4">Financial statement audits give assurance over information used by investors and the capital markets. Independent, quality financial statement audits Financial statement audits give assurance over information used by investors and the capital markets .</p>
+                                    <a href="{% url 'industries' %}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                                
+                            </div>
+                        </div>                       
+                        <div class="tab-pane fade" id="tab-pane-7">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 510px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="{% static 'img/public.jpeg' %}"
+                                            style="object-fit: cover;" alt="people in public photo">
+                                    </div>
+                                </div>
+                                <div class="col-md-6" id="tab-pane-5">
+                                    <h3 class="mb-4">Public and social sector</h3>
+                                    <p class="mb-4">Financial statement audits give assurance over information used by investors and the capital markets. Independent, quality financial statement audits Financial statement audits give assurance over information used by investors and the capital markets .</p>
+                                    <a href="{% url 'industries' %}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-6">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 510px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="{% static 'img/real_estate.jpg' %}"
+                                            style="object-fit: cover;" alt="real_estate photo">
+                                    </div>
+                                </div>
+                                <div class="col-md-6" id="tab-pane-5">
+                                    <h3 class="mb-4">Real estate and Construction</h3>
+                                    <p class="mb-4">Financial statement audits give assurance over information used by investors and the capital markets. Independent, quality financial statement audits Financial statement audits give assurance over information used by investors and the capital markets – a responsibility to the public interest Keystone Management Audit professionals take very seriously, applying powerful D&A routines.</p>
+                                    <a href="{% url 'industries' %}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- Industries End -->
+
+<!-- Service Start -->
+<div class="container-xxl service py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Services</p>
+            <h1 class="display-5 mb-5">Services</h1>
+        </div>
+        <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4">
+                <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                    <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active"
+                        data-bs-toggle="pill" data-bs-target="#tab-pane-11" type="button">
+                        <h5 class="m-0"><i class="fa fa-search text-primary me-3"></i>Audit and Assurance</h5>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                        data-bs-toggle="pill" data-bs-target="#tab-pane-12" type="button">
+                        <h5 class="m-0"><i class="fa fa-calculator text-primary me-3"></i>Tax Regulatory and People service</h5>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                        data-bs-toggle="pill" data-bs-target="#tab-pane-13" type="button">
+                        <h5 class="m-0"><i class="fa fa-calendar text-primary me-3"></i>Advisory</h5>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0"
+                        data-bs-toggle="pill" data-bs-target="#tab-pane-14" type="button">
+                        <h5 class="m-0"><i class="fa fa-address-book text-primary me-3"></i>Consulting</h5>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="tab-content w-100">
+                    <div class="tab-pane fade show active" id="tab-pane-11">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute rounded w-100 h-100" src="{% static 'img/audit.webp' %}"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-4">Audit and Assurance</h3>
+                                <p class="mb-4">Financial statement audits provide confidence in the information relied upon by investors and the financial markets. Conducted independently and with a focus on quality, these audits ensure the reliability of financial information essential for investors and the capital markets..</p>
+                                <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-pane-12">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute rounded w-100 h-100" src="{% static 'img/tax.jpeg' %}"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-4">Tax Regulatory and People service</h3>
+                                <p class="mb-4">The perception of taxation is evolving, with organizations facing increasing exposure to shifting tax regulations both domestically and internationally. Keystone Management leads the way in navigating this dynamic tax environment. As a prominent tax network, we believe it is our responsibility as tax professionals to actively participate in discussions regarding Tax Transparency and Responsibility...</p>
+                                <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-pane-13">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute rounded w-100 h-100" src="{% static 'img/advisory.jpg' %}"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-4">Advisory</h3>
+                                <p class="mb-4">The Advisory Team at Keystone Management Nigeria collaborates with global industry leaders to establish and safeguard the enduring value of their enterprises. Our professionals partner with you to navigate the intricacies of the swiftly evolving marketplace...</p>
+                                <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-pane-14">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute rounded w-100 h-100" src="{% static 'img/consultancy.webp' %}"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-4">Consulting</h3>
+                                <p class="mb-4">Success in companies is contingent upon the alignment of their personnel, procedures, and resources towards common goals. At Keystone, we specialize in assisting leaders throughout various departments, including top management, finance, risk management, IT, and HR, to foster alignment and enhance performance by promoting collaboration, providing strategic guidance, and offering contemporary technical and digital proficiency</p>
+                                <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
+<!-- Team Start -->
+<!-- <div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Our Team</p>
+            <h1 class="display-5 mb-5">Exclusive Team</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item">
+                    <img class="img-fluid rounded" src="{% static 'img/team-1.jpg' %}" alt="">
+                    <div class="team-text">
+                        <h4 class="mb-0">Kate Winslet</h4>
+                        <div class="team-social d-flex">
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <img class="img-fluid rounded" src="{% static 'img/team-2.jpg' %}" alt="">
+                    <div class="team-text">
+                        <h4 class="mb-0">Jac Jacson</h4>
+                        <div class="team-social d-flex">
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="team-item">
+                    <img class="img-fluid rounded" src="{% static 'img/team-3.jpg' %}" alt="">
+                    <div class="team-text">
+                        <h4 class="mb-0">Doris Jordan</h4>
+                        <div class="team-social d-flex">
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square rounded-circle mx-1" href=""><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- Team End -->
+
+<!-- Testimonial Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Testimonial</p>
+            <h1 class="display-5 mb-5">What Our Clients Say!</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+            <div class="testimonial-item">
+                <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+                    <div class="btn-square bg-white border rounded-circle">
+                        <i class="fa fa-quote-right fa-2x text-primary"></i>
+                    </div>
+                    Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
+                    lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                </div>
+                <img class="rounded-circle mb-3" src="{% static 'img/testimonial-1.jpg' %}" alt="">
+                <h4>Smith Julliet</h4>
+                <span>Musician</span>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+                    <div class="btn-square bg-white border rounded-circle">
+                        <i class="fa fa-quote-right fa-2x text-primary"></i>
+                    </div>
+                    Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
+                    lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                </div>
+                <img class="rounded-circle mb-3" src="{% static 'img/testimonial-2.jpg' %}" alt="">
+                <h4>Jessy Adams</h4>
+                <span>Doctor</span>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+                    <div class="btn-square bg-white border rounded-circle">
+                        <i class="fa fa-quote-right fa-2x text-primary"></i>
+                    </div>
+                    Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
+                    lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                </div>
+                <img class="rounded-circle mb-3" src="{% static 'img/testimonial-3.jpg' %}" alt="">
+                <h4>Kim Hoo</h4>
+                <span>Professor</span>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-text border rounded p-4 pt-5 mb-5">
+                    <div class="btn-square bg-white border rounded-circle">
+                        <i class="fa fa-quote-right fa-2x text-primary"></i>
+                    </div>
+                    Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
+                    lorem magna ut et, nonumy et labore et tempor diam tempor erat.
+                </div>
+                <img class="rounded-circle mb-3" src="{% static 'img/testimonial-4.jpg' %}" alt="">
+                <h4>Jesse Mark</h4>
+                <span>Lawyer</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+   <!-- Callback Start -->
+<div class="container-fluid callback my-5 pt-5">
+    <div class="container pt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                        <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
+                        </p>
+                        <h1 class="display-5 mb-5">Contact Us</h1>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <label for="mail">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <label for="mobile">Your Mobile</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 100px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Callback End -->
+
+
+{% endblock %}

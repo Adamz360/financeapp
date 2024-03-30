@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <a href="{% url 'services' %}">
+            <h1 class="display-3 mb-4 animated slideInDown">Services</h1>
+        </a>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Audit and Assurance</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/audit.webp' %}">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">Boosting Trust with Independent Financial Audits</h1>
+                <p class="mb-4">
+                    Financial statement audits play a vital role in providing confidence to investors and the capital
+                    markets. At keystone, we embrace our duty to the public interest with utmost seriousness. Our
+                    skilled Audit professionals utilize advanced Data & Analytics (D&A) methods to improve audit
+                    evidence quality and gain deeper insights.
+
+                    Recognizing the changing landscape, we actively involve stakeholders through platforms like
+                    keystone's 'Value of Audit' to understand their viewpoints better. Through ongoing innovation, we
+                    strive to meet the evolving needs of the capital markets and society.
+                    Opt for keystone for independent, top-quality financial statement audits that inspire trust and
+                    confidence in financial data
+                </p>
+
+            </div>
+        </div>
+        <!-- second section  -->
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="mb-4">In today's fast-paced financial landscape, trust is paramount. That's why at keystone,
+                    we're dedicated to delivering unparalleled assurance through our meticulous financial statement
+                    audits. Our seasoned Audit professionals leverage cutting-edge Data & Analytics (D&A) tools to
+                    provide comprehensive insights and ensure the integrity of your financial data.
+
+                    But it doesn't stop there. We understand the evolving needs of investors and stakeholders, which is
+                    why we go beyond the numbers. Through collaborative forums like keystone's 'Value of Audit,' we
+                    engage with industry leaders to stay ahead of the curve and drive meaningful change.
+
+                    Choose keystone for more than just an audit; choose a partner committed to your success, trust, and
+                    peace of mind. Let's embark on a journey of confidence together!
+                </p>
+
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/consultancy.webp' %}">
+            </div>
+        </div>
+        <!-- third section -->
+
+    </div>
+</div>
+<!-- About End -->
+
+
+
+<!-- Callback Start -->
+<div class="container-fluid callback my-5 pt-5">
+    <div class="container pt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                        <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
+                        </p>
+                        <h1 class="display-5 mb-5">Contact Us</h1>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <label for="mail">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <label for="mobile">Your Mobile</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 100px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Callback End -->>
+
+
+
+{% endblock %}

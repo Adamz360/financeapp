@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <a href="{% url 'industries' %}"> <h1 class="display-3 mb-4 animated slideInDown">Industries</h1> </a>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Consumer </a></li>
+                <!-- <li class="breadcrumb-item active" aria-current="page">Services</li> -->
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="img/about.jpg">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
+                <h1 class="display-5 mb-4">We Help Our Clients To Grow Their Business</h1>
+                <p class="mb-4">Integrated services that help you manage change and drive value
+                    In an ever-evolving business landscape, the consumer sector faces significant challenges driven by market disruptions and evolving consumer behaviour influenced by new technologies. To succeed in this dynamic environment, businesses need to anticipate customer decision-making and the underlying factors shaping it. At Mazars, we take a collaborative approach, partnering with our clients to gain a deep understanding of their unique reality, including their trading environment, market dynamics, operational intricacies, and strategic objectives. Leveraging our extensive experience in the consumer sector, we help companies navigate market changes, providing tailored solutions that empower them to thrive and stay ahead of the curve.
+                    
+                    Our approach 
+                    The evolving geopolitical landscape and macroeconomic factors are shaping supply chain behaviours and influencing consumer spending patterns in the consumer goods and services sector. These key drivers have a direct impact on corporate performance. At Mazars, our approach is centered around empowering clients to navigate these dynamic forces, seize future opportunities, and mitigate potential risks. Through a consultative and collaborative approach, we work closely with consumer-facing businesses to enhance their understanding of emerging trends, enabling them to optimize revenue potential and anticipate changing consumer behaviours.
+                    
+                    To thrive in this rapidly changing landscape, consumer businesses must effectively leverage complex data, navigate regulatory complexities, and embrace sustainable global sourcing, all while delivering innovative customer experiences. We believe that achieving this delicate balance requires holistic alignment across all aspects of the consumer business. Our dedicated consumer sector specialists work closely with clients, gaining a deep understanding of their unique challenges and aspirations, while keeping sight of long-term strategic goals. Together, we forge a path towards sustained success in a dynamic and competitive marketplace.
+                    
+                    Our services
+                    At Mazars, we bring together a team of experts across various disciplines to deliver comprehensive and tailored advice, unlocking the full potential of your business. Our bespoke solutions are designed to address your specific needs. Our wide range of services includes:
+                    
+                    Audit and assurance: Ensuring financial transparency and compliance.
+                    International Financial Reporting Standards (IFRS) conversion advice: Assisting with the transition to global accounting standards.
+                    Tax planning and compliance: Optimizing tax strategies and ensuring compliance with regulations.
+                    VAT planning, investigations, and health checks: Managing value-added tax efficiently and effectively.
+                    Transaction support and corporate finance: Guiding you through transactions and providing strategic financial advice.
+                    Risk management: Identifying and mitigating risks to protect your business.
+                    Corporate governance and risk management: Enhancing governance practices and managing risks effectively.
+                    Forensic and investigations: Investigating fraud, misconduct, and financial irregularities.
+                    Accounting support and outsourcing: Assisting with accounting processes and outsourcing needs.
+                    Reporting accountant service: Providing expert opinions on financial statements and transactions.
+                    Business process improvement: Streamlining operations and optimizing efficiency.
+                    Internal controls compliance: Ensuring effective internal controls and compliance with regulations.
+                    Employer solutions: Providing support in areas such as payroll, HR, and employee benefits.
+                    Information systems audits and advisory services: Assessing and enhancing IT systems and security.
+                    Business recovery services: Assisting in turnaround and restructuring efforts.
+                    With our comprehensive suite of services, Mazars is committed to helping your business thrive and succeed in today's competitive landscape
+                </p>
+                
+            </div>
+        </div>
+        <!-- second section  -->
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
+                <h1 class="display-5 mb-4">We Help Our Clients To Grow Their Business</h1>
+                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                    eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                </p>
+                
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="img/about.jpg">
+            </div>
+        </div>
+        <!-- third section -->
+        
+    </div>
+</div>
+<!-- About End -->
+
+
+    <!-- Callback Start -->
+    <div class="container-fluid callback my-5 pt-5">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
+                            </p>
+                            <h1 class="display-5 mb-5">Contact Us</h1>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <label for="mail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <label for="mobile">Your Mobile</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Callback End -->>
+
+
+
+{% endblock %}

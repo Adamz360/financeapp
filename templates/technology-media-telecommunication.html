@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- img section -->
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <a href="{% url 'industries' %}">
+            <h1 class="display-3 mb-4 animated slideInDown">Industries</h1>
+        </a>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Technology,Media & Telecommunication</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/telecom1.jpg' %}">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">Excellence in Telecom our Firm's Expertise</h1>
+                <p class="mb-4">
+                    Innovative ideas for fast-growing, digitally connected technology, media and telecoms companies
+                    keystone works with a wide range of clients in specialist areas from data logistics to international
+                    publishers to broadband technology providers, companies across the film, media and entertainment
+                    sector and telecommunications suppliers.
+
+                    Whatever your size and ambition, whether you are a growing business or a global multi-media company,
+                    we provide the same quality of service and commitment to each client - and our partner-led approach
+                    ensures a personal service.
+                    A selection of the services we provide to the Technology, media and telecommunications sectors are:
+                    Financial audit – with a current client portfolio including one of the largest publishers in the UK
+                    and the fourth largest communications agency in the world, we have the experience and expertise
+                    required to audit companies across the media sector. Our sector knowledge enables us to focus on key
+                    risk areas such as revenue recognition and the carrying value of brands, intangibles and goodwill.
+                    As such we are able to provide a tailored risk-based approach, maximising efficiency and adding
+                    value through the audit process.
+
+                    
+
+                    
+                </p>
+            </div>
+        </div>
+        <!-- second section  -->
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="mb-4">Financial reporting advisory – our experienced team helps companies interpret and apply
+                    International Financial Reporting Standards and provides accounting advice on a range of projects.
+                    Particularly relevant for companies in the media sector, this includes accounting for business
+                    combinations and intangible asset valuations under IFRS3, and valuation of share option schemes,
+                    often used to incentivise employees in the creative environment.
+
+                    Licensing and royalty services - licensing of content is particularly prevalent in the media world,
+                    and sale of rights and licenses to companies around the world is a major driver of revenue for many
+                    media players. But how can companies be confident that the revenue reported from licensees is
+                    accurate? keystone provides help to media companies in this area by advising on their licensing
+                    strategy, performing royalty audits and carrying out investigative assignments where breaches have
+                    occurred. Our international reach means that we can perform these assignments on a global scale –
+                    leading to efficiency and a streamlined approach for our clients.
+                </p>
+
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/telecom2.avif' %}">
+            </div>
+        </div>
+        <!-- third section -->
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/telecom3.jpeg' %}">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="mb-4">Tax planning and compliance - tax planning is particularly important in the rapidly changing media
+                    sector. keystone provides a full range of tax services for every stage of a company’s life cycle from
+                    advice on acquisitions, disposals and restructuring to international tax planning for global
+                    businesses. Our specialist employment tax team helps companies to reward and retain talent through
+                    tax-efficient remuneration planning, an area of high importance in the creative sector.
+
+                    Transaction services and corporate finance - in a dynamic and evolving sector, acquisitions,
+                    divestments, capital raising and restructuring are taking place every day. keystone helps media
+                    companies undertake these transactions by providing pre-deal due diligence, and post-deal
+                    transformation and acting as reporting accountants for IPOs and capital raising.
+
+                    Business performance improvement - in times of change, companies need to adapt their systems and
+                    processes quickly to seize opportunities and address new challenges effectively. Whether you are
+                    looking at ways to reduce costs in a challenging environment, or for improvements to your processes
+                    and management information,
+                    keystone can provide the expertise that you need.
+                </p>
+
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Callback Start -->
+<div class="container-fluid callback my-5 pt-5">
+    <div class="container pt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                        <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
+                        </p>
+                        <h1 class="display-5 mb-5">Contact Us</h1>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <label for="mail">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <label for="mobile">Your Mobile</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 100px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Callback End -->>
+
+
+
+{% endblock %}

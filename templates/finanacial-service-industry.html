@@ -1,0 +1,199 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- img section -->
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <a href="{% url 'industries' %}">
+            <h1 class="display-3 mb-4 animated slideInDown">Industries</h1>
+        </a>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Financial service industry</a></li>
+                <!-- <li class="breadcrumb-item active" aria-current="page">Services</li> -->
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/finance3.jpg' %}">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">keystone Path to Peak Performance</h1>
+                <p class="mb-4">Building the future of financial services with forward-thinking solutions
+                    Asset management
+
+                    The regulatory environment for asset management firms has intensified in recent years with a growing
+                    number of new regulations. Among these are the Markets in Financial Instruments Directive (MIFID 2),
+                    the Undertakings for Collective Investment in Transferable Securities (UCITS) directives and the
+                    Alternative Investment Fund Managers Directive (AIFMD). This deeper regulatory environment has
+                    placed an increased pressure on asset management entities to balance the rising cost of compliance
+                    alongside stakeholder expectations under a more transparent and robust approach to risk management.
+
+                    keystone is an international group based on an integrated global partnership. As such we are
+                    structured as a “one firm” organisation, able to think, decide and act collectively.
+
+                    We tailor our service offerings to match client needs, mobilising our local and international teams
+                    as appropriate to offer you innovative solutions to meet your business requirements.
+   
+
+                </p>
+
+            </div>
+        </div>
+
+        <!-- second section  -->
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="mb-4">
+                     Our specialist asset management team is available to support your business needs and provide you
+                    with a wide range of integrated professional services across your business value chain.
+                    an asset management team with significant experience gained by working closely with more than 1,000
+                    funds across the UK and Europe
+                    strong regulatory credentials, fine-tuned while leading projects on behalf of the major regulatory
+                    bodies
+                    benchmarking of industry practices through a global asset management network
+                    integrated and multidisciplinary teams that combine expertise, experience, international best
+                    practice and local know-how
+                    bespoke tools developed and tested across a wide range of scenarios
+                    a dedicated international asset management network, including our office in Jersey, that allows us
+                    to respond exclusively to needs of a variety of clients operating in the asset management sector.
+                    Banking
+
+                    Our banking practice is led by a dedicated team of former regulators, industry executives and senior
+                    professionals with a wealth of knowledge and practical experience.
+
+                    We have been heavily involved in helping leading global banks, regulators, central banks and
+                    governments navigate the web of regulatory, economic and political challenges facing the industry.
+                    Whilst we may not be able to predict what the future holds, we can ensure that the decisions you
+                    make are robust and deliver lasting results to you and your stakeholders.
+                </p>
+
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/finance1.avif' %}">
+            </div>
+        </div>
+        <!-- third section -->
+        <div class="row g-4 align-items-end mb-4">
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/finance2.webp' %}">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <p class="mb-4">
+                    In addition to the depth of experience offered by our advisory teams, we provide high quality
+                    external audit and assurance services to our clients, bringing to bear our industry expertise and
+                    dedication to client service.
+
+                    Our five core dedicated banking service areas are:
+
+                    Audit and assurance
+
+                    Regulatory and compliance
+
+                    Bank restructuring
+
+                    Finance and operational effectiveness
+
+                    Risk management
+
+                    Insurance
+
+                    The intricate dynamics of the insurance industry create a challenging arena in which to operate.
+                    Combining this with enhanced regulation and continued pressure on solvency and capital adequacy
+                    means it is proving more important now than ever that FCA regulated entities adopt an effective
+                    approach to managing financial, operational and regulatory risk.
+
+                    As a leading provider of audit and business advisory services, keystone has over a hundred years of
+                    experience within the insurance market internationally. Our strong business model ensures we can
+                    combine a global scope with the listening skills and service levels of an individual business
+                    partner.
+
+                    From brokers and intermediaries, to life and general insurers and those within the reinsurance
+                    market, our team has the knowledge and expertise required to provide effective, value-added
+                    solutions for your business.
+
+                    Globally,our dedicated insurance practice works with over 200 companies across the insurance sector.
+
+                    Our expertise across the insurance sector enables us to provide our clients with a wide range of
+                    services in:
+
+                    Audit and Assurance
+                    Advisory
+                    Actuarial
+                    Tax
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Callback Start -->
+<div class="container-fluid callback my-5 pt-5">
+    <div class="container pt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                        <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
+                        </p>
+                        <h1 class="display-5 mb-5">Contact Us</h1>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <label for="mail">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <label for="mobile">Your Mobile</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                    style="height: 100px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Callback End -->>
+
+
+
+{% endblock %}

@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <a href="{% url 'services' %}"> <h1 class="display-3 mb-4 animated slideInDown">Services</h1> </a>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#">Advisory</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/about.jpg' %}">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">Welcome to keystone Nigeria Advisory: Your Partner for Sustainable Business Success</h1>
+                <p class="mb-4">
+                    At keystone Nigeria Advisory, we collaborate with some of the world's foremost organizations to cultivate and safeguard the enduring value of their businesses. Our team of dedicated professionals is here to navigate the intricacies of today's rapidly evolving marketplace alongside you.
+
+                    Drawing upon the collective wisdom and expertise of our global network of firms, we deliver actionable recommendations tailored to your unique challenges and opportunities. Our goal? To empower you to operate more efficiently, expand more rapidly, and outshine your competition.
+                    
+                    As trusted advisors to leading organizations worldwide, we're chosen for our exceptional talent, unrivaled technical proficiency, profound industry insights, and unwavering commitment to delivering results. With keystone Nigeria Advisory by your side, success is not just an ambition—it's an achievable reality.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+    <!-- Callback Start -->
+    <div class="container-fluid callback my-5 pt-5">
+        <div class="container pt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Get In Touch
+                            </p>
+                            <h1 class="display-5 mb-5">Contact Us</h1>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <label for="mail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                    <label for="mobile">Your Mobile</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Callback End -->>
+
+
+
+{% endblock %}

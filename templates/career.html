@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- About Start -->
+
+<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container">
+        <h1 class="display-3 mb-4 animated slideInDown">Careers</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4 align-items-end mb-4">
+
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/advisory.jpg' %}">
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">Join Our Team!</h1>
+                <p class="mb-4">
+                    Are you passionate about
+                    Our mission at keystone which is simple: to empower our clients to navigate the complexities of
+                    finance with confidence and ease. We understand that every business is unique, which is why we take
+                    a personalized approach to each engagement, ensuring that our solutions are aligned with your goals
+                    and objectives.
+                    Do you thrive in a collaborative environment where your ideas are valued? We're always on the
+                    lookout for talented individuals to join our team and contribute to our mission of [briefly describe
+                    your company's mission or goals]. Check out our current openings below and take the first step
+                    towards an exciting career with us!
+                </p>
+
+            </div>
+        </div>
+        <!-- second section  -->
+        <div class="row g-4 align-items-end mb-4">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h1 class="display-5 mb-4">Make an Impact!</h1>
+                <p class="mb-4">
+                    Are you passionate about making a difference in [your industry or field]? Do you thrive in a dynamic
+                    and collaborative environment where innovation is encouraged and your ideas are valued? At [Your
+                    Company Name], we're on a mission to [briefly describe your company's mission or goals, highlighting
+                    the impact you aim to make].
+                    Why Work With Us?
+                <ul>
+                    <li>
+                        Collaborative Environment: Join a team of talented individuals who are dedicated to working
+                        together towards a common goal.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Opportunities for Growth: We believe in investing in our employees' professional development and
+                        provide opportunities for growth and advancement.
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Innovative Projects: Be a part of exciting and cutting-edge projects that challenge you to think
+                        creatively and push boundaries..
+                    </li>
+                </ul>
+
+                </p>
+
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <img class="img-fluid rounded" src="{% static 'img/consultancy.webp' %}">
+            </div>
+        </div>
+   
+    </div>
+</div>
+<!-- About End -->
+
+
+
+
+
+
+
+
+{% endblock %}
