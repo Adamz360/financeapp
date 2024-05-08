@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from .models import posts
+from django.views import generic
 
 # Create your views here.
 
@@ -20,8 +22,7 @@ def home(request):
     return render(request, 'home.html' )
 def careers(request):
     return render(request, 'career.html' )
-def insight(request):
-    return render(request, 'insight.html' )
+
 
 # industires links
 def industries(request):
@@ -52,3 +53,13 @@ def consulting(request):
     return render(request, 'consulting.html' )
 def tax_regulatory_people_services(request):
     return render(request, 'tax-regulatory-people-services.html' )
+
+# class_based views of the insight
+class postslist(generic.ListView):
+    queryset = posts.objects.filter(status=1).order_by('-created_on')
+    template_name = 'insight.html'
+    paginate_by = 10
+
+class postdetail(generic.DetailView):
+    model = posts
+    template_name = "insight_post.html"

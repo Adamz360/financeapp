@@ -11,7 +11,6 @@ urlpatterns = [
     path('team/', views.team, name='team'),
     path('error404/', views.error404, name='error404'),
     path('', views.home, name='home'),
-    path('insight/', views.insight, name='insight'),
     # industries url paths
     path('industries/', views.industries, name='industries'),
     path('industries/consumer_industrial_market/', views.consumer_industrial_market, name='consumer_industrial_market'),
@@ -28,6 +27,9 @@ urlpatterns = [
     path('services/consulting', views.consulting, name='consulting'),
     path('services/tax_regulatory_people_services', views.tax_regulatory_people_services, name='tax_regulatory_people_services'),
     
+
+    path('insight', views.postslist.as_view(), name="posts"),
+    path('<slug:slug>/', views.postdetail.as_view(), name="post_detail"),
 
 ]
  
